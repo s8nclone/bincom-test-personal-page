@@ -312,9 +312,8 @@ header {
   padding: 5px 0;
   position: absolute;
   z-index: 1;
-  bottom: 100%;
-  left: 50%;
-  margin-left: -60px;
+  top: -5%;
+  left: 100%;
   opacity: 0;
   transition: opacity 1s;
 }
@@ -339,7 +338,7 @@ header {
   /* border: 1px solid var(--bg-dark-green); */
   border-radius: 5px;
   box-shadow: #2c2b33;
-  object-fit: fill;
+  object-fit: cover;
 }
 
 .album_item:hover {
