@@ -10,6 +10,8 @@
         <title>Farayola Muiz</title>
 
         <link rel="stylesheet" href="style.css">
+        <!-- link to fontawesome toolkit -->
+        <script defer src="https://kit.fontawesome.com/93158f92e8.js" crossorigin="anonymous"></script>
     </head>
 
     <body>
@@ -29,10 +31,10 @@
                 <div>
                     <nav class="nav_bar" >
                         <ul class="aside_nav" id="nav">
-                            <li class="nav_li" id="nav_li"><a href="#home">Home</a></li>
-                            <li class="nav_li" id="nav_li"><a href="#about">About</a></li>
-                            <li class="nav_li" id="nav_li"><a href="Farayola Muiz CV-L.pdf">View CV</a></li>
-                            <li class="nav_li" id="nav_li"><a href="#contact">Contact</a></li>
+                            <li class="nav_li" id="nav_li"><a href="#home"><i class="nav_i fa-solid fa-house"></i>Home</a></li>
+                            <li class="nav_li" id="nav_li"><a href="#about"><i class="nav_i fa-regular fa-id-card"></i>About</a></li>
+                            <li class="nav_li" id="nav_li"><a href="Farayola Muiz CV-L.pdf"><i class="nav_i fa-solid fa-file-contract"></i>View CV</a></li>
+                            <li class="nav_li" id="nav_li"><a href="#contact"><i class="nav_i fa-solid fa-address-card"></i>Contact</a></li>
                         </ul>
                     </nav>
                 </div>
@@ -155,24 +157,31 @@
                                                         <div class="skills_group skills_active" data-content id="frontend">
                                                             <div class="skills_list">
                                                                 <div class="skill_item">
+                                                                    <i class="skills_i fa-brands fa-4x fa-html5"></i>
                                                                     <h3 class="skill_item-title">HTML5</h3>
                                                                 </div>
                                                                 <div class="skill_item">
+                                                                    <i class="skills_i fa-brands fa-4x fa-css3"></i>
                                                                     <h3 class="skill_item-title">CSS3</h3>
                                                                 </div>
                                                                 <div class="skill_item">
+                                                                    <i class="skills_i fa-brands fa-4x fa-js"></i>
                                                                     <h3 class="skill_item-title">JavaScript</h3>
                                                                 </div>
                                                                 <div class="skill_item">
+                                                                    <i class="skills_i fa-brands fa-4x fa-react"></i>
                                                                     <h3 class="skill_item-title">Reactjs</h3>
                                                                 </div>
                                                                 <div class="skill_item">
+                                                                    <i class="skills_i fa-brands fa-4x fa-bootstrap"></i>
                                                                     <h3 class="skill_item-title">Bootstrap</h3>
                                                                 </div>
                                                                 <div class="skill_item">
+                                                                    <i class="skills_i fa-brands fa-4x fa-git-alt"></i>
                                                                     <h3 class="skill_item-title">Git</h>
                                                                 </div>
                                                                 <div class="skill_item">
+                                                                    <i class="skills_i fa-brands fa-4x fa-github"></i>
                                                                     <h3 class="skill_item-title">Github</h3>
                                                                 </div>
                                                             </div>
@@ -190,21 +199,27 @@
                                                         <div class="skills_group skills_active" data-content id="frontend">
                                                             <div class="skills_list">
                                                                 <div class="skill_item">
+                                                                    <i class="skills_i fa-brands fa-4x fa-js"></i>
                                                                     <h3 class="skill_item-title">JavaScript</h3>
                                                                 </div>
                                                                 <div class="skill_item">
+                                                                    <i class="skills_i fa-solid fa-4x fa-e"></i>
                                                                     <h3 class="skill_item-title">Expressjs</h>
                                                                 </div>
                                                                 <div class="skill_item">
+                                                                    <i class="skills_i fa-solid fa-4x fa-m"></i>
                                                                     <h3 class="skill_item-title">MySQL</h3>
                                                                 </div>
                                                                 <div class="skill_item">
+                                                                    <i class="skills_i fa-solid fa-4x fa-p"></i>
                                                                     <h3 class="skill_item-title">Postman</h3>
                                                                 </div>
                                                                 <div class="skill_item">
+                                                                    <i class="skills_i fa-sharp fa-4x fa-solid fa-database"></i>
                                                                     <h3 class="skill_item-title">MongoDB</h3>
                                                                 </div>
                                                                 <div class="skill_item">
+                                                                    <i class="skills_i fa-solid fa-4x fa-d"></i>
                                                                     <h3 class="skill_item-title">Django</h3>
                                                                 </div>
                                                             </div>
@@ -236,7 +251,13 @@
                                             </p>
                                         </div> 
                                         <div class="timeline_item gallery">
-                                            <h3 class="gallery-title">Gallery</h3>
+                                            <div class="tooltip">
+                                                <h3 class="gallery-title">Gallery</h3>
+                                                <span class="tooltiptext">
+                                                    (N.B - I apologize for the low picture quality and resolution on larger screen sizes)
+                                                </span>
+                                            </div>
+                                            
                                             <div class="gallery_items">
                                                 <div class="album">
                                                     <img class="album_item" alt="me and friends" src="/images/meAndFriend.png">
@@ -309,7 +330,10 @@
                                                 <div class="media_div"></div>
                                                 <div class="media_div"></div>
                                                 <div class="media_div"></div>
-                                                <div class="media_div fa-brands fa-github"><h3>Github</h3></div>
+                                                <div class="media_div">
+                                                    <i class="contact_i fa-brands fa-2x fa-square-github"></i>
+                                                    <h3>Github</h3>
+                                                </div>
                                             </div>
                                         </a>
                                     </li>
@@ -320,7 +344,10 @@
                                                 <div class="media_div"></div>
                                                 <div class="media_div"></div>
                                                 <div class="media_div"></div>
-                                                <div class="media_div "><h3>LinkedIn</h3></div>
+                                                <div class="media_div ">
+                                                    <i class="contact_i fa-brands fa-2x fa-linkedin"></i>
+                                                    <h3>LinkedIn</h3>
+                                                </div>
                                             </div>
                                         </a>
                                     </li>
@@ -336,7 +363,10 @@
                                                 <div class="media_div"></div>
                                                 <div class="media_div"></div>
                                                 <div class="media_div"></div>
-                                                <div class="media_div "><h3>Twitter</h3></div>
+                                                <div class="media_div ">
+                                                    <i class="contact_i fa-brands fa-2x fa-twitter"></i>
+                                                    <h3>Twitter</h3>
+                                                </div>
                                             </div>
                                         </a>
                                     </li>
@@ -352,7 +382,10 @@
                                                 <div class="media_div"></div>
                                                 <div class="media_div"></div>
                                                 <div class="media_div"></div>
-                                                <div class="media_div "><h3>Email</h3></div>
+                                                <div class="media_div">
+                                                    <i class="contact_i fa-solid fa-2x fa-envelope"></i>
+                                                    <h3>Email</h3>
+                                                </div>
                                             </div>
                                         </a>
                                     </li>
@@ -362,7 +395,7 @@
                     </section>    
                     <footer>
                         <div class="footer_note">
-                            <p>A single web page designed for the Bincom internsip test</p>
+                            <p>A single web page designed in requirement for the Bincom internship test</p>
                             <p>created by <a class="foot_link_note" target="_blank" href="https://github.com/s8nclone">'Muiz Farayola</a></p>
                         </div>
                     </footer>
